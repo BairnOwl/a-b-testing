@@ -52,14 +52,51 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     
     <title>Find Memphis Taxis online</title>
+  <style>
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+  </style>
   </head>
 
   <body>
-    <header>
-      <h1>Memphis Taxis by bEsTcs1300!! - WEBSITE A</h1>
-      <p>This page contains information about taxi and cab companies in Memphis, Tennessee.</p>
-      <p>Not endorsed by any of the companies listed, or the city of Memphis.</p>
-    </header>
+
 
     <!--
     TODO: Feel free to modify image, change layouts, appearance etc anything.
@@ -69,17 +106,40 @@
     Easiest thing is to have just the two buttons we already have and try to play around
     with layouts of it.
     -->
-    <div style="background-image:url(http://www.html.am/images/image-codes/milford_sound_t.jpg);width:1000px;height:600px;color:black;font-size:18px;">
+    <div style="background-color:#00ff55;width:1600px;height:200px;color:black;font-size:18px;">
       Distracting BACKground?.
+      <header>
+      <h1>Memphis Taxis by bEsTcs1300!! - WEBSITE A</h1>
+      <p>This page contains information about taxi and cab companies in Memphis, Tennessee.</p>
+      <p>Not endorsed by any of the companies listed, or the city of Memphis.</p>
+    </header>
+
     </div>
 
     <div class="vendor-wrapper">
       <input type="image" src="/static/memphis.png" class="vendor-photo" id="mp1";/>
       <!--<button class="vendor-book-button btn btn-primary" type="submit" id="mp1">Reserve with YellowCab
           Taxis</button>-->
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown</button>
+      <div class="dropdown-content">
+        <a href="#">CLICK MEEEE</a>
+        <a href="#">STAY ON THIS PAGE LONGER</a>
+        <a href="#">PLEASE!!</a>
+      </div>
+    </div>
+
+    <div style="background-color:#bfbfbf;width:1600px;height:1600px;color:black;font-size:18px;">
+      Distracting BACKground?.
+      <div class="vendor-wrapper">
+      <img src="/static/memphis.png" class="vendor-photo" />
+      <button class="vendor-book-button btn btn-primary" type="submit" id="mp1">Reserve with YellowCab
+          Taxis</button>
+>>>>>>> 069df735d40fe77f6939cf20d480ecce1b3d4ca1
                 <p>Safe, Reliable Taxi Services from Yellow Cab and Checker Cab are available
               in the Memphis Metro area 24 hours a day.</p>
     </div>
+
     <div class="vendor-wrapper">
       <img src="/static/memphis2.png" class="vendor-photo" />
       <button class="vendor-book-button btn btn-primary" type="submit" id="mp2">Reserve with RideCharge taxi</button>
@@ -101,6 +161,15 @@
               transport our passengers in a safe, polite and timely manner at a fair
               price.</p>
     </div>
+
+    </div>
+
+
+
+
+
+
+
 
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>
