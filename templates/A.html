@@ -119,7 +119,9 @@
           <div class="middle" id="middle1">
           <div class="text" id="mp1">Reserve Now</div>
           </div>
+          <div id="m1">
           <input type="image" src="/static/memphis.png" class="vendor-photo" id="mp1";/>
+          </div>
           <p class="droplink" onclick="$('#memphis').slideToggle()">Learn More</p>
           <div id="memphis" class="dropdown-text" style="display: none">
               <p>Safe, Reliable Taxi Services from Yellow Cab and Checker Cab are available
@@ -136,7 +138,9 @@
         <div class="middle" id="middle2">
           <div class="text" id="mp2">Reserve Now</div>
           </div>
+          <div id="m2">
           <input src="/static/memphis2.png" type="image" class="vendor-photo" id="mp2"/>
+          </div>
           <p class="droplink" onclick="$('#memphis2').slideToggle()">Learn More</p>
           <div id="memphis2" class="dropdown-text" style="display: none">
             <p>Safe, Reliable Taxi Services from Yellow Cab and Checker Cab are available
@@ -153,7 +157,9 @@
         <div class="middle" id="middle3">
           <div class="text" id="mp3" >Reserve Now</div>
           </div>
+          <div id="m3">
           <input src="/static/uber.png" type="image" class="vendor-photo" id="mp3"/>
+          </div>
           <p class="droplink" onclick="$('#uber').slideToggle()">Learn More</p>
             <div id="uber" class="dropdown-text" style="display: none">
                 <p>We are so much cheaper than taxis..! </p>
@@ -171,7 +177,9 @@
           <div class="middle" id="middle4">
           <div class="text" id="mp4">Reserve Now</div>
           </div>
+          <div id="m4">
             <input src="/static/premiere.png" type="image" class="vendor-photo" id="mp4"/>
+           </div>
             <p class="droplink" onclick="$('#premiere').slideToggle()">Learn More</p>
             <div id="premiere" class="dropdown-text" style="display: none">
                 <p>Our goal is to efficiently
@@ -271,7 +279,7 @@
               });
         }
 
-        $("#mp1")
+        $("#m1")
     .on("mouseover focus",  function() { $("#middle1").animate({ opacity: 1 }); })
     .on("mouseleave blur", function() { 
         if ( $(this).val() == '' && !$(this).is(":focus")) {
@@ -287,7 +295,7 @@
         }
     });
 
-        $("#mp2")
+        $("#m2")
     .on("mouseover focus",  function() { $("#middle2").animate({ opacity: 1 }); })
     .on("mouseleave blur", function() { 
         if ( $(this).val() == '' && !$(this).is(":focus")) {
@@ -303,7 +311,7 @@
         }
     });
 
-            $("#mp3")
+            $("#m3")
     .on("mouseover focus",  function() { $("#middle3").animate({ opacity: 1 }); })
     .on("mouseleave blur", function() { 
         if ( $(this).val() == '' && !$(this).is(":focus")) {
@@ -319,7 +327,7 @@
         }
     });
 
-            $("#mp4")
+            $("#m4")
     .on("mouseover focus",  function() { $("#middle4").animate({ opacity: 1 }); })
     .on("mouseleave blur", function() { 
         if ( $(this).val() == '' && !$(this).is(":focus")) {
