@@ -71,13 +71,12 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 1600px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -90,14 +89,14 @@
 }
 
 .dropdown:hover .dropbtn {
-   color: #f1f1f1;
+   color: black;
 }
 </style>
   </head>
 
   <body>
 
-
+  <!--TAXI: https://www.yellowcabnyctaxi.com/wp-content/themes/yellowcabnyc/images/taxi.png-->
     <!--
     TODO: Feel free to modify image, change layouts, appearance etc anything.
     Remember if you add any new buttons, you need to update the javascript file, for
@@ -106,25 +105,13 @@
     Easiest thing is to have just the two buttons we already have and try to play around
     with layouts of it.
     -->
-        <div class="vendor-wrapper" class="container" style="background-color:#00ff55;">
+        <div class="container" style="background-color:#00ff55;">
     <div class="row">
-    <div class="col-sm-6"></div>
   <div class="col-sm-6">
       <header>
       <h1>Memphis Taxis by bEsTcs1300!! - WEBSITE A</h1>
     </header>
     </div>
-      </div>
-    </div>
-    </div>
-    </div>
-
-        <div class="vendor-wrapper" class="container">
-    <div class="row">
-    <div class="col-sm-6"></div>
-  <div class="col-sm-6">
-      <p>This page contains information about taxi and cab companies in Memphis, Tennessee.</p>
-      <p>Not endorsed by any of the companies listed, or the city of Memphis.</p>
       </div>
     </div>
     </div>
@@ -139,7 +126,7 @@
       <!--<button class="vendor-book-button btn btn-primary" type="submit" id="mp1">Reserve with YellowCab
           Taxis</button>-->
       <div class="dropdown">
-      <button class="dropbtn">Learn More</button>
+      <p class="dropbtn">Learn More</p>
       <div class="dropdown-content">
         <p>Safe, Reliable Taxi Services from Yellow Cab and Checker Cab are available
               in the Memphis Metro area 24 hours a day.</p>
@@ -159,7 +146,7 @@
       <input src="/static/memphis2.png" type="image" class="vendor-photo" id="mp2"/>
       <!--<button class="vendor-book-button btn btn-primary" type="submit" id="mp2">Reserve with RideCharge taxi</button>-->
       <div class="dropdown">
-      <button class="dropbtn">Learn More</button>
+      <p class="dropbtn">Learn More</p>
       <div class="dropdown-content">
         <p>Our drivers are the most professional drivers in the industry. Our drivers
               are licensed and required to successfully complete a formal training.</p>
@@ -176,21 +163,19 @@
     <div class="col-sm-4"></div>
   <div class="col-sm-4">
     <input src="/static/uber.png" type="image" class="vendor-photo" id="mp3"/>
-   
-    <!--<button class="vendor-book-button btn btn-primary" type="submit" id="mp3">Reserve with Memphis Uber</button>-->
+    <br>
       <div class="dropdown">
-      <button class="dropbtn">Learn More</button>
+      <p class="dropbtn">Learn More</p>
       <div class="dropdown-content">
-        <p> We are so much cheaper than taxis..! </p>
+               <p>We are so much cheaper than taxis..! </p>
       </div>
   </div>
+    <!--<button class="vendor-book-button btn btn-primary" type="submit" id="mp3">Reserve with Memphis Uber</button>-->
   <div class="col-sm-4"></div>
       </div>
     </div>
     </div>
-    </div>
-     
-    </div>
+
 
         <div class="vendor-wrapper" class="container">
     <div class="row">
@@ -198,8 +183,21 @@
   <div class="col-sm-4">
       <input src="/static/premiere.png" type="image" class="vendor-photo" id="mp4"/>
       <!--<button class="vendor-book-button btn btn-primary" type="submit" id="mp4">Reserve with Premier taxi</button>-->
+  <br>
+  <div class="dropdown">
+      <p class="dropbtn">Learn More</p>
+  <div class="col-sm-4"></div>
+      </div>
+    </div>
+    </div>
+
+      <div class="vendor-wrapper" class="container">
+    <div class="row">
+    <div class="col-sm-4"></div>
+  <div class="col-sm-4">
+  <br>
       <div class="dropdown">
-      <button class="dropbtn">Learn More</button>
+      <p class="dropbtn">Learn More</p>
       <div class="dropdown-content">
                <p>Our goal is to efficiently
               transport our passengers in a safe, polite and timely manner at a fair
@@ -210,7 +208,19 @@
       </div>
     </div>
     </div>
+
     </div>
+
+       <div class="vendor-wrapper" class="container">
+    <div class="row">
+  <div class="col-sm-6">
+      <p>This page contains information about taxi and cab companies in Memphis, Tennessee.</p>
+      <p>Not endorsed by any of the companies listed, or the city of Memphis.</p>
+      </div>
+    </div>
+    </div>
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>
