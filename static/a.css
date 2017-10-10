@@ -22,11 +22,11 @@ body {
 	color: black !important;
 }
 
-.container:hover .image {
+image:hover .image {
   opacity: 0.3;
 }
 
-.container:hover .middle {
+image:hover .middle {
   opacity: 1;
 }
 
