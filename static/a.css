@@ -3,7 +3,7 @@ header {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	text-align: center;
-	background-color: #FEC42E;
+	background: rgba(0, 0, 0, 0);
 	display: flex !important;
 	align-items: center;
 	justify-content: center;
@@ -24,7 +24,7 @@ body {
 
 .taxi {
 	position: fixed !important;
-    left: 1065px !important;
+    left: 1080px !important;
     top: 40% !important;
     z-index: -1 !important;
 }
