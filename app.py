@@ -39,7 +39,6 @@ def root():
     else:
         return render_template('B.html')
 
-
 @app.route('/A', methods=['GET'])
 def version_A():
     return render_template('A.html')

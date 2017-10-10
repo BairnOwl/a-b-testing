@@ -30,10 +30,14 @@ button {
 	margin-bottom: 10px !important;
 }
 
+button:hover {
+	cursor: pointer;
+}
+
 /* Feel free to modify anything in this file.*/
 .vendor-wrapper {
 	justify-content: left;
-	padding-left: 40px;
+	padding-left: 20px !important;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	border: 3px solid #FEC42E;
