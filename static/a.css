@@ -15,6 +15,10 @@ h1 {
 	float: left;
 }
 
+body {
+	background-image: url("https://www.yellowcabnyctaxi.com/wp-content/themes/yellowcabnyc/images/bg.jpg");
+}
+
 /* Feel free to modify anything in this file.*/
 .vendor-wrapper {
     border-radius: 50px;
