@@ -8,6 +8,14 @@ header {
 	margin-top: 10px;
 	margin-bottom: 20px;
 	text-align: center;
+	display: flex !important;
+	align-items: center;
+	margin: auto;
+	width: 80vw;
+}
+
+h1 {
+	float: left;
 }
 
 footer {
@@ -46,4 +54,12 @@ button {
 .text {
 	width: 40%;
 	float: right;
+}
+
+.logo {
+	height: 100px;
+}
+
+#rocket {
+	float: left;
 }
