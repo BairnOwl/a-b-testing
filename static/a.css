@@ -2,6 +2,7 @@ header {
 	padding-left: 40px;
 	padding-top: 20px;
 }
+
 /* Feel free to modify anything in this file.*/
 .vendor-wrapper {
 	justify-content: left;
@@ -14,6 +15,12 @@ header {
 	max-width: : 200px;
 	max-height: 150px;
 	padding-right: 20px;
+}
+
+input {
+    max-width: : 200px;
+    max-height: 150px;
+    padding-right: 20px;   
 }
 
 .vendor-book-button {
