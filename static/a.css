@@ -17,14 +17,14 @@ h1 {
 
 body {
 	background-image: url("https://www.yellowcabnyctaxi.com/wp-content/themes/yellowcabnyc/images/bg.jpg") !important;
-	background-repeat: repeat-y !important;
+	/*background-repeat: repeat-y !important;*/
 	background-origin: center !important;
-	background-position: -700px !important;
+	background-position: 120vw !important;
 }
 
 .taxi {
 	position: fixed !important;
-    left: 1080px !important;
+    left: 85vw !important;
     top: 40% !important;
     z-index: -1 !important;
 }
