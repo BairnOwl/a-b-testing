@@ -22,13 +22,13 @@ body {
 	color: black !important;
 }
 
-input:hover .overlay {
+.vendor-photo:hover .overlay {
     width:100% !important;
     height:100% !important;
     background:rgba(0,0,0,.5) !important;
     position:absolute !important;
-    top:50% !important;
-    left:50% !important;
+    top:50 !important;
+    left:50 !important;
     display:inline-block !important;
     -webkit-box-sizing:border-box !important;
     -moz-box-sizing:border-box !important;
