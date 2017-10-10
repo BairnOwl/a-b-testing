@@ -23,6 +23,25 @@ body {
 	color: black !important;
 }
 
+.image:hover .overlay {
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.5);
+    position:absolute;
+    top:0;
+    left:0;
+    display:inline-block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+
+    /* All other styling - see example */
+
+    img {
+        vertical-align:top; /* Default is baseline, this fixes a common alignment issue */
+    }
+}
+
 .taxi {
 	position: fixed !important;
     left: 85vw !important;
@@ -37,6 +56,7 @@ body {
 	padding-left: 40px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	background-color: white;
 }
 
 .vendor-photo {
