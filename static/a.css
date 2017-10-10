@@ -1,6 +1,18 @@
 header {
 	padding-left: 40px;
 	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color: #FEC42E;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	width: 80vw;
+}
+
+h1 {
+	float: left;
 }
 
 /* Feel free to modify anything in this file.*/
@@ -28,6 +40,14 @@ input {
 
 .vendor-book-button {
 	font-size: 2em;
+}
+
+.logo {
+	height: 100px;
+}
+
+#rocket {
+	float: left;
 }
 
 
