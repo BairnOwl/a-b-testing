@@ -16,7 +16,10 @@ h1 {
 }
 
 body {
-	background-image: url("https://www.yellowcabnyctaxi.com/wp-content/themes/yellowcabnyc/images/bg.jpg") repeat-y center -700px !important;
+	background-image: url("https://www.yellowcabnyctaxi.com/wp-content/themes/yellowcabnyc/images/bg.jpg") !important;
+	background-repeat: repeat-y !important;
+	background-origin: center !important;
+	background-position: -700px !important;
 }
 
 /* Feel free to modify anything in this file.*/
