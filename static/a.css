@@ -16,8 +16,7 @@ h1 {
 }
 
 body {
-	background-image: url("https://www.yellowcabnyctaxi.com/wp-content/themes/yellowcabnyc/images/bg.jpg") !important;
-	 background-position: 0px -700px !important;
+	background-image: url("https://www.yellowcabnyctaxi.com/wp-content/themes/yellowcabnyc/images/bg.jpg") repeat-y center -700px !important;
 }
 
 /* Feel free to modify anything in this file.*/
@@ -32,15 +31,24 @@ body {
 .vendor-photo {
     border-radius: 25px;
 	max-width: : 200px;
-	max-height: 150px;
+	/*max-height: 150px;*/
 	/*padding-right: 20px;*/
+	width: 100%;
+	display: block;
 }
 
 input {
     border-radius: 25px;
     max-width: : 200px;
-    max-height: 150px;
+    /*max-height: 150px;*/
     /*padding-right: 20px;   */
+}
+
+footer {
+	font-size: 11px;
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
 }
 
 .vendor-book-button {
