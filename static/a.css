@@ -19,6 +19,25 @@ body {
 	background-image: url("https://www.yellowcabnyctaxi.com/wp-content/themes/yellowcabnyc/images/bg.jpg") !important;
 	background-origin: center !important;
 	background-position: 120vw !important;
+	color: black !important;
+}
+
+input:hover .overlay {
+    width:100% !important;
+    height:100% !important;
+    background:rgba(0,0,0,.5) !important;
+    position:absolute !important;
+    top:50% !important;
+    left:50% !important;
+    display:inline-block !important;
+    -webkit-box-sizing:border-box !important;
+    -moz-box-sizing:border-box !important;
+    box-sizing:border-box !important;
+    color: white;
+}
+
+.overlay {
+    display:none !important;
 }
 
 .taxi {
@@ -35,6 +54,7 @@ body {
 	padding-left: 40px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	background-color: white;
 }
 
 .vendor-photo {
