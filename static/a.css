@@ -3,6 +3,10 @@ header {
 	padding-top: 20px;
 }
 
+body {
+	background: "https://www.yellowcabnyctaxi.com/wp-content/themes/yellowcabnyc/images/bg.jpg";
+}
+
 /* Feel free to modify anything in this file.*/
 .vendor-wrapper {
     border-radius: 50px;
