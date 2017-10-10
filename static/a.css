@@ -22,24 +22,6 @@ body {
 	color: black !important;
 }
 
-.container:hover .image {
-  opacity: 0.3;
-}
-
-.container:hover .middle {
-  opacity: 1;
-}
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
-}
-
 .taxi {
 	position: fixed !important;
     left: 85vw !important;
@@ -99,4 +81,22 @@ footer {
 
 .droplink:hover {
 	color: blue;
+}
+
+.middle {
+	 transition: .5s ease;
+  	 opacity: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+ 	 -ms-transform: translate(-50%, -50%)
+}
+
+.text {
+  border-radius: 50px;
+  background-color: #d3d3d3;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
 }

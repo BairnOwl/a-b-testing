@@ -88,6 +88,8 @@
 .dropdown:hover .dropbtn {
    color: black;
 }
+
+
 </style>
   </head>
 
@@ -114,10 +116,10 @@
     <div class="row">
       <div class="col-sm-3"></div>
         <div class="col-sm-5 white">
-          <input type="image" src="/static/memphis.png" class="vendor-photo" id="mp1";/>
           <div class="middle">
-          <div class="text">Reserve Now</div>
+          <div class="text" id="mp1">Reserve Now</div>
           </div>
+          <input type="image" src="/static/memphis.png" class="vendor-photo" id="mp1";/>
           <p class="droplink" onclick="$('#memphis').slideToggle()">Learn More</p>
           <div id="memphis" class="dropdown-text" style="display: none">
               <p>Safe, Reliable Taxi Services from Yellow Cab and Checker Cab are available
@@ -131,6 +133,9 @@
     <div class="row">
       <div class="col-sm-3"></div>
         <div class="col-sm-5 white">
+        <div class="middle">
+          <div class="text" id="mp2">Reserve Now</div>
+          </div>
           <input src="/static/memphis2.png" type="image" class="vendor-photo" id="mp2"/>
           <p class="droplink" onclick="$('#memphis2').slideToggle()">Learn More</p>
           <div id="memphis2" class="dropdown-text" style="display: none">
@@ -145,6 +150,9 @@
     <div class="row">
       <div class="col-sm-3"></div>
         <div class="col-sm-5 white">
+        <div class="middle">
+          <div class="text" id="mp3">Reserve Now</div>
+          </div>
           <input src="/static/uber.png" type="image" class="vendor-photo" id="mp3"/>
           <p class="droplink" onclick="$('#uber').slideToggle()">Learn More</p>
             <div id="uber" class="dropdown-text" style="display: none">
@@ -160,6 +168,9 @@
       <div class="row">
         <div class="col-sm-3"></div>
           <div class="col-sm-5 white">
+          <div class="middle">
+          <div class="text" id="mp4">Reserve Now</div>
+          </div>
             <input src="/static/premiere.png" type="image" class="vendor-photo" id="mp4"/>
             <p class="droplink" onclick="$('#premiere').slideToggle()">Learn More</p>
             <div id="premiere" class="dropdown-text" style="display: none">
@@ -259,6 +270,23 @@
                     }
               });
         }
+
+        $("input")
+    .on("mouseover focus",  function() { $(".middle").animate({ opacity: 1 }); })
+    .on("mouseleave blur", function() { 
+        if ( $(this).val() == '' && !$(this).is(":focus") ) {
+            $(".middle").animate({ opacity: 0 });
+        }
+    });
+
+            $(".middle")
+    .on("mouseover focus",  function() { $(".middle").animate({ opacity: 1 }); })
+    .on("mouseleave blur", function() { 
+        if ( $(this).val() == '' && !$(this).is(":focus") ) {
+            $(".middle").animate({ opacity: 0 });
+        }
+    });
+
      </script>
   </body>
 </html>
