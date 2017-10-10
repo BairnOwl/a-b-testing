@@ -19,10 +19,10 @@ body {
 	background-image: url("https://www.yellowcabnyctaxi.com/wp-content/themes/yellowcabnyc/images/bg.jpg") !important;
 	background-repeat: repeat-y !important;
 	background-origin: center !important;
-	background-position: -500px !important;
+	background-position: -100px !important;
 }
 
-#taxi {
+.taxi {
 	position: absolute !important;
     left: 80% !important;
     top: 0% !important;
