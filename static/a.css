@@ -22,22 +22,22 @@ body {
 	color: black !important;
 }
 
-.vendor-photo:hover .overlay {
-    width:100% !important;
-    height:100% !important;
-    background:rgba(0,0,0,.5) !important;
-    position:absolute !important;
-    top:50 !important;
-    left:50 !important;
-    display:inline-block !important;
-    -webkit-box-sizing:border-box !important;
-    -moz-box-sizing:border-box !important;
-    box-sizing:border-box !important;
-    color: white;
+.container:hover .image {
+  opacity: 0.3;
 }
 
-.overlay {
-    display:none !important;
+.container:hover .middle {
+  opacity: 1;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
 }
 
 .taxi {
