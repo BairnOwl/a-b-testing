@@ -39,6 +39,7 @@ def root():
     else:
         return render_template('B.html')
 
+
 # data endpoint
 @app.route('/data', methods=['GET', 'POST'])
 def get_data():
