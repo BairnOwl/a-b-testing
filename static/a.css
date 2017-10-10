@@ -22,11 +22,11 @@ body {
 	color: black !important;
 }
 
-image:hover .image {
+input:hover .image {
   opacity: 0.3;
 }
 
-image:hover .middle {
+input:hover .middle {
   opacity: 1;
 }
 
