@@ -40,6 +40,14 @@ def root():
         return render_template('B.html')
 
 
+@app.route('/A', methods=['GET'])
+def version_A():
+    return render_template('A.html')
+
+@app.route('/B', methods=['GET'])
+def version_B():
+    return render_template('B.html')
+
 # data endpoint
 @app.route('/data', methods=['GET', 'POST'])
 def get_data():
