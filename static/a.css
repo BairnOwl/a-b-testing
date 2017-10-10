@@ -23,7 +23,7 @@ body {
 	color: black !important;
 }
 
-.image:hover .overlay {
+input:hover .overlay {
     width:100% !important;
     height:100% !important;
     background:rgba(0,0,0,.5) !important;
