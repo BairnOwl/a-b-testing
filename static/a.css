@@ -17,7 +17,6 @@ h1 {
 
 body {
 	background-image: url("https://www.yellowcabnyctaxi.com/wp-content/themes/yellowcabnyc/images/bg.jpg") !important;
-	/*background-repeat: repeat-y !important;*/
 	background-origin: center !important;
 	background-position: 120vw !important;
 }
@@ -41,8 +40,6 @@ body {
 .vendor-photo {
     border-radius: 25px;
 	max-width: : 200px;
-	/*max-height: 150px;*/
-	/*padding-right: 20px;*/
 	width: 100%;
 	display: block;
 }
@@ -50,8 +47,6 @@ body {
 input {
     border-radius: 25px;
     max-width: : 200px;
-    /*max-height: 150px;*/
-    /*padding-right: 20px;   */
 }
 
 footer {
@@ -73,4 +68,16 @@ footer {
 	float: left;
 }
 
+.white {
+	background-color: white;
+	padding: 20px;
+}
 
+.droplink {
+	cursor: pointer;
+	margin-top: 15px;
+}
+
+.droplink:hover {
+	color: blue;
+}
